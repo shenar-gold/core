@@ -1,4 +1,4 @@
-package shape;
+package java_CreateShapes;
 
 public class Triangle extends Shape{
 

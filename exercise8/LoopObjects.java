@@ -11,7 +11,7 @@ public class LoopObjects {
 	
 	Customer[] array = new Customer[2];
 	
-	public static void CreateObject(){
+	public void CreateObject(){
 		for(int i=0;i<2;i++){
 		array[i] = new Customer();
 		}
@@ -22,10 +22,10 @@ public class LoopObjects {
 	public static void main(String[] args) {
 
 
-			CreateObject();
+//			CreateObject();
 			
 			for(int i=0; i<2; i++) {
-				System.out.println(loopObj.array[i]);
+//				System.out.println(loopObj.array[i]);
 			}
 			
 	}
