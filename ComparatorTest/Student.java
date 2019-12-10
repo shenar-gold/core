@@ -25,5 +25,13 @@ public class Student {
 	int getId() {
 		return id;
 	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.firstName + ' ' + this.lastName + ' ' + this.id; 
+	}
+	
+	
 	
 }
